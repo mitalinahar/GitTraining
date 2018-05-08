@@ -1,0 +1,56 @@
+git status
+git init
+git status
+git config --global user.email mitali.jain13@gmail.com
+git config --global user.name mitali nahar
+git add .
+git status
+git commit -m"Message"
+s
+git remote add origin https://github.com/mitalinahar/GitTraining.gitgit 
+
+git remote
+
+git push origin master
+<<Enter username and password mitali.jain13@gmail.com Appirio1234>>
+
+<<git clone>>
+
+
+git checkout -b testbranch
+
+git checkout master
+
+git branch
+
+git pull origin master
+
+
+git -d <deletebranch>
+
+git reset --mixed <Commit Id UPTO>
+
+
+git reset --soft <2nd Commit Id>
+
+git reset --hard <Commit Id>
+
+git commit -am"Message" --- to add and commit both
+
+git revert <to remove commit Id>
+
+esc : wq
+
+C:\Program Files\KDiff3/kdiff3.exe
+
+
+Mitali Nahar@Appirio-9737 MINGW64 /d/GitTraining (master|MERGING)
+$ git config --global --add mergetool.kdiff3.path "C:/Program Files/KDiff3/kdif
+f3.exe"
+
+
+$ git config --global --add merge.tool kdiff3
+
+$ git config --global --add mergetool.kdiff3.trustExitCode false
+
+$ git mergetool
